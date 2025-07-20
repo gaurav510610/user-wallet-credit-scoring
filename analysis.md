@@ -14,8 +14,11 @@ Wallets are grouped into the following score ranges:
 |   3     |     250      |       62      |
 |   4     |     100      |      411      |
 
+![Credit Score Distribution](credit_score_distribution.png)
+
 **Visualization**: The bar chart `credit_score_distribution.png` clearly shows that most wallets fall into the mid-range score of 500 
  
+
 ## Behavioral Insights by Score Range
 ### Score: 100 (Cluster 5)
 - High number of liquidation calls
