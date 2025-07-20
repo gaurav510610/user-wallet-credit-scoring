@@ -6,6 +6,10 @@ This project develops a machine learning-based model that assigns a credit score
 ## Objective
 The goal is to identify and score wallet addresses based on how responsibly they interact with the lending and borrowing protocol. Responsible wallets receive high scores, while bot-like or risky ones are penalized.
 
+## 📁 Dataset
+[Download user-wallet-transactions.json (Google Drive)](https://drive.google.com/drive/folders/1eG43qukp23nOWZqc7HfyPI4HtQlo8V5y?usp=drive_link)
+
+
 ## Data Used 
   - The data comes from `user-wallet-transactions.json`.
   - It contains around 100,000 DeFi transactions.
