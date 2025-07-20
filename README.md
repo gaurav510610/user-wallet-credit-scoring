@@ -27,6 +27,8 @@ From the raw data, the following wallet-level features were engineered:
 - **Average transactions per day**
 - **Net position** = deposit + repay − borrow − redeemunderlying
 
+These features were essential in clustering wallets based on behavior.
+
 ## Credit Scoring Method    
 **1. Feature Scaling**: Used `MinMaxScaler` to normalize numerical features
 
@@ -39,7 +41,7 @@ From the raw data, the following wallet-level features were engineered:
     - **Cluster 2** — Score: **750**
     - **Cluster 3** — Score: **500**
     - **Cluster 4** — Score: **250**
-    - **Cluster 5 (Worst)** — Score: **100*
+    - **Cluster 5 (Worst)** — Score: **100**
 ## output 
 
 A CSV file wallet_credit_scores.csv with the following columns:
@@ -47,6 +49,8 @@ A CSV file wallet_credit_scores.csv with the following columns:
 - `userWallet`
 - `cluster`
 - `credit_score_kmeans`
+- 
+This CSV helps compare behavior-based segmentation and creditworthiness of DeFi wallets.
 
 ## How to Run the Script 
  Run the scoring script from the terminal:
@@ -77,7 +81,7 @@ These graphs are saved as in the repository.
 - `generate_wallet_scores.py` — One-step script
 - `wallet_credit_scores.csv` — Final output
 - `analysis.md` - Wallet behavior analysis
-- `readme.md`
+- `readme.md`  - project overview and usage guide
 
 ## See Also
 
