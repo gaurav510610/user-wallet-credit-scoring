@@ -89,5 +89,5 @@ These graphs are saved as in the repository.
 
 ## See Also
 
-Please refer to `analysis.md` for deeper insights into wallet behavior and score ranges.
+Please refer to [`analysis.md`](./analysis.md) for deeper insights into wallet behavior and score ranges.
     
